@@ -1,0 +1,24 @@
+body {
+    background-color: transparent;
+}
+
+.input-label {
+    width: 120px;
+    height: 25px;
+    font-size: 16px;
+}
+.input-text {
+    border: 1px solid #39c5bb;
+    background-color: transparent;
+    width: 120px;
+    height: 25px;
+    color: lavender;
+}
+.panel-div {
+    margin: 10px auto 10px auto;
+}
+.panel-div-block {
+    float: left;
+    height: auto;
+    width: 250px;
+}

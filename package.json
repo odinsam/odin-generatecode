@@ -21,14 +21,60 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:odin-generatecode.helloWorld"
+        "onView:nodeDependencies"
     ],
     "main": "./out/extension.js",
     "contributes": {
+        "viewsContainers": {
+            "activitybar": [
+                {
+                    "id": "database-Info",
+                    "title": "数据库详情",
+                    "icon": "media/dep.svg"
+                }
+            ]
+        },
+        "views": {
+            "database-Info": [
+                {
+                    "id": "nodeDependencies",
+                    "name": "",
+                    "icon": "media/dep.svg",
+                    "contextualTitle": "database-Info"
+                }
+            ]
+        },
+        "menus": {
+            "view/title": [
+                {
+                    "command": "nodeDependencies.addEntry",
+                    "when": "view == nodeDependencies",
+                    "group": "navigation"
+                },
+                {
+                    "command": "nodeDependencies.refreshEntry",
+                    "when": "view == nodeDependencies",
+                    "group": "navigation"
+                },
+                {
+                    "command": "nodeDependencies.deleteEntry",
+                    "when": "view == nodeDependencies",
+                    "group": "navigation"
+                }
+            ]
+        },
         "commands": [
             {
-                "command": "odin-generatecode.helloWorld",
-                "title": "Hello World"
+                "command": "nodeDependencies.refreshEntry",
+                "title": "Refresh"
+            },
+            {
+                "command": "nodeDependencies.addEntry",
+                "title": "Add"
+            },
+            {
+                "command": "nodeDependencies.deleteEntry",
+                "title": "Delete"
             }
         ]
     },
