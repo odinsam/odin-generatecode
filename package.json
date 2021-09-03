@@ -2,18 +2,18 @@
     "name": "odin-generatecode",
     "displayName": "odin-generatecode",
     "description": "vscode extensions",
-    "version": "1.0.1",
+    "version": "1.0.0",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/odinsam/odin-GenerateCode-plugs"
+        "url": "git+https://github.com/odinsam/odin-generatecode.git"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/odinsam/odin-GenerateCode-plugs/issues"
+        "url": "https://github.com/odinsam/odin-generatecode/issues"
     },
-    "homepage": "https://github.com/odinsam/odin-GenerateCode-plugs#readme",
+    "homepage": "https://github.com/odinsam/odin-generatecode#readme",
     "engines": {
         "vscode": "^1.60.0"
     },
