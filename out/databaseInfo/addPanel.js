@@ -127,19 +127,22 @@ class AddPanel {
 					</div>
 				</div>
 				<div class="panel-div">
-					<div class="panel-div-block"><label class="input-label"><span style="color:red;">*</span> Host: </label><input  class="input-text"/><div>
-					<div class="panel-div-block"><label class="input-label"><span style="color:red;">*</span> Port: </label><input  class="input-text"/><div></div>
+					<div class="panel-div-block"><label class="input-label"><span style="color:red;">*</span> Host: </label><input id="txt-host" class="input-text"/><div>
+					<div class="panel-div-block"><label class="input-label"><span style="color:red;">*</span> Port: </label><input id="txt-port" class="input-text"/><div></div>
 				</div>
 				<div class="panel-div">
-				<div class="panel-div-block"><label class="input-label"><span style="color:red;">*</span> Username: </label><input  class="input-text"/>
-				<div class="panel-div-block"><label class="input-label"><span style="color:red;">*</span> Password: </label><input  class="input-text"/></div>
+				<div class="panel-div-block"><label class="input-label"><span style="color:red;">*</span> Username: </label><input id="txt-username" class="input-text"/>
+				<div class="panel-div-block"><label class="input-label"><span style="color:red;">*</span> Password: </label><input id="txt-pwd" class="input-text"/></div>
 				</div>
 				<div class="panel-div">
-				<div class="panel-div-block"><label class="input-label"><span style="color:red;">*</span> Databases: </label><input  class="input-text"/></div>
+				<div class="panel-div-block"><label class="input-label"><span style="color:red;">*</span> Databases: </label><input id="txt-database" class="input-text"/></div>
 				</div>
 				<div class="panel-div">
 					<button class="connection-button">Connect</button>
 					<button>Close</button>
+				</div>
+				<div>
+					<label id="label-info" class="label-info"></label>
 				</div>
 				<script nonce="${nonce}" src="${scriptPathOnDisk}"></script>
 			</body>

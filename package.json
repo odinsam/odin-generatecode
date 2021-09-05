@@ -15,7 +15,7 @@
     },
     "homepage": "https://github.com/odinsam/odin-generatecode#readme",
     "engines": {
-        "vscode": "^1.60.0"
+        "vscode": "^1.50.0"
     },
     "categories": [
         "Other"
